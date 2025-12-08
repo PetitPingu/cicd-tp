@@ -3,9 +3,9 @@ name: CI
 
 on:
   push:
-    branches: [master]
+    branches: [laporte-gha]
   pull_request:
-    branches: [master]
+    branches: [laporte-gha]
 
 jobs:
   lint:
