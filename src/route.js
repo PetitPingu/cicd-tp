@@ -30,4 +30,4 @@ router.post("/ai-greet", async (req, res) => {
   }
 });
 
-export default router;
+module.exports = router;
