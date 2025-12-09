@@ -1,6 +1,6 @@
 // src/server.js (ou dans un nouveau fichier route)
-import express from "express";
-import axios from "axios";
+const express = require("express");
+const axios = require("axios");
 const router = express.Router();
 
 router.post("/ai-greet", async (req, res) => {
